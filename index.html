@@ -9,18 +9,49 @@
     .product-card img {
       height: 200px;
       object-fit: cover;
-    }
+    } 
     .footer {
       background-color: #343a40;
       color: white;
       padding: 30px 0;
       text-align: center;
     }
+    .header{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      /* gap: 25px; */
+      list-style: none;
+      padding: 12px 0px;
+    }
+    .header ul{
+      gap: 25px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+    }
 
   </style>
 </head>
 <body>
 
+   <!-- header -->
+   <div class="header">
+    <div class="logo">
+        <img src="./images/Frame 50.png" alt="">
+    </div>
+    <div class="navlist">
+        <ul>
+            <li>CATALOGUE</li>
+            <li>FASHION</li>
+            <li>FAVOURITE</li>
+            <li>LIFESTYLE</li>
+            <li><button type="button" class="btn btn-dark">SIGN UP</button></li>
+        </ul>
+    </div>
+</div>
+<!-- header End -->
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container">
@@ -59,7 +90,8 @@
       <span class="carousel-control-next-icon"></span>
     </button>
   </div>
-
+  
+  
   <!-- Product Section -->
   <section class="py-5">
     <div class="container">
